@@ -1,0 +1,17 @@
+version: '2'
+services:
+  amtwiki:
+    build:
+      context: ./
+      dockerfile: Dockerfile.nginx-php8
+    ports:
+     - 21080:80
+    working_dir: /var/www
+    volumes:
+      - ./wiki:/var/www/wiki.amtgard.com
+    container_name: amtwiki
+    networks:
+      - amtwiki
+
+networks:
+  amtwiki:
