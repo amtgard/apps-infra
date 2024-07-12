@@ -1,0 +1,9 @@
+[submodule "var/www/behold.amtgard.com"]
+	path = var/www/behold.amtgard.com
+	url = https://github.com/amtgard/beholder.git
+[submodule "var/www/play.amtgard.com"]
+	path = var/www/play.amtgard.com
+	url = https://github.com/amtgard/play.amtgard.com.git
+[submodule "var/www/go.amtgard.com"]
+	path = var/www/go.amtgard.com
+	url = https://github.com/amtgard/go.amtgard.com.git
